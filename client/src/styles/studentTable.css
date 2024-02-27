@@ -1,0 +1,18 @@
+.table-img {
+    width: 65%;
+    height: 70%;
+    border-radius: 50%;
+}
+
+.dataTable {
+    /* background-color: #1e1e1e; */
+    background-color: white;
+    border-radius: 5px;
+    margin: 4px;
+    /* color: white; */
+}
+
+/* .css-az8st9-MuiDataGrid-root .MuiDataGrid-cellContent,
+.css-t89xny-MuiDataGrid-columnHeaderTitle {
+    color: white;
+} */

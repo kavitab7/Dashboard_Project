@@ -1,0 +1,16 @@
+.container {
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    background-color: rgb(236, 236, 236);
+}
+
+.menu {
+    width: 15vw;
+    height: 100%;
+}
+
+.content {
+    width: 85vw;
+    height: 101vh;
+}

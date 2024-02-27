@@ -1,0 +1,109 @@
+.single-student {
+    margin: 5px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 5px;
+    height: 100vh;
+}
+
+.chart {
+    height: 300px;
+    width: 50%;
+}
+
+.view {
+    display: flex;
+    color: white;
+    background-color: #122347;
+    padding: 19px;
+    border-radius: 7px;
+}
+
+.info {
+    width: 50%;
+    display: flex;
+    gap: 40px;
+    height: 300px;
+    justify-content: center;
+
+    h1 {
+        padding: 4px;
+    }
+
+    .css-sghohy-MuiButtonBase-root-MuiButton-root {
+        background-color: black;
+    }
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.courses {
+    h2 {
+        margin: 20px 10px;
+    }
+}
+
+.courses .box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(50px, auto);
+    list-style: none;
+    gap: 13px;
+}
+
+.course-box {
+    display: flex;
+    gap: 20px;
+    border: 1px solid #122347;
+    border-radius: 4px;
+    padding: 10px;
+
+    .web {
+        background: url(../images/web-design.png);
+        background-size: cover;
+        background-position: center;
+        width: 60px;
+        height: 60px;
+    }
+
+    .machine {
+        background: url(../images/machine.png);
+        background-size: cover;
+        background-position: center;
+        width: 60px;
+        height: 60px;
+    }
+
+    .ui {
+        background: url(../images/graphic-design.png);
+        background-size: cover;
+        background-position: center;
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .info {
+        gap: 11px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .single-student {
+        height: 160vh;
+    }
+
+    .courses .box {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .info,
+    .chart {
+        width: 100%;
+    }
+}

@@ -1,0 +1,24 @@
+nav {
+    display: flex;
+    margin: 7px;
+    margin-bottom: 0px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.left-nav,
+.right-nav {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.right-nav {
+    justify-content: end;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    padding-left: 9px;
+}
